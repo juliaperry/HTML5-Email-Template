@@ -43,6 +43,46 @@
     img {
       max-width: 100%;
     }
+
+    .three-columns {
+      width: 29.3%;
+      padding: 5% 2% 6%;
+      text-align: center;
+    }
+
+    .three-columns img {
+      max-width: 135px;
+    }
+
+    h2 {
+      font-weight: 700;
+      font-size: 29px;
+      letter-spacing: 1px;
+      margin: 20px 0 8px;
+    }
+
+    p {
+      line-height: 26px;
+      padding-bottom: 15px;
+    }
+
+    .button {
+      background-color: #37a28f;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 14px;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      border-radius: 6px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      transition: 0.4s;
+    }
+
+    .button:hover {
+      background-color: #3db5a0;
+      color: #fff;
+    }
   </style>
   <body>
     <div class="wrapper">
@@ -61,15 +101,30 @@
           alt="Banner"
           title="Banner"
       /></a>
+      <div class="three-columns">
+        <a href="https://example.com" target="_blank"
+          ><img
+            src="https://i.ibb.co/tHQy3gL/mouse.png"
+            alt="Mouse"
+            title="Mouse"
+          />
+        </a>
+        <h2>Email Development</h2>
+        <p>
+          There are many different email clients to consider when developing
+          your email templates.
+        </p>
+        <div class="button-holder">
+          <a href="https://example.com" class="button">Learn More</a>
+        </div>
+      </div>
     </div>
+    <!-- End of Wrapper -->
   </body>
 </html>
 
 <!-- https://w3newbie.imgbb.com/
-https://i.ibb.co/JtckNqn/logo.png
-https://i.ibb.co/zQ558kP/banner.png
 
-https://i.ibb.co/tHQy3gL/mouse.png
 https://i.ibb.co/42MJn1V/phone.png
 https://i.ibb.co/RD0sR6V/computer.png
 https://i.ibb.co/NKdYy92/pie-chart.png
